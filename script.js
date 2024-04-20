@@ -2,7 +2,7 @@ function minDate(dates) {
   //write you code here
 	let min = dates[0];
 	for (let index = 0; index < dates.length; index++) {
-		const curr = new Date(dates[i]);
+		const curr = new Date(dates[index]);
 		if(curr< min){
 			min = curr
 		}
